@@ -1,4 +1,87 @@
-body { font-family: Arial, sans-serif; text-align: center; }
-ul { list-style: none; padding: 0; }
-li { background: #f0f0f0; margin: 5px; padding: 10px; border-radius: 5px; }
-button { margin-top: 10px; padding: 10px; cursor: pointer; }
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fef9ef;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #3366cc;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #3366cc;
+}
+
+/* Estilo del input y botón */
+.input-group {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    width: 60%;
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    background-color: #ccc;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+}
+
+button:hover {
+    background-color: #bbb;
+}
+
+/* Lista de nombres */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    padding: 10px;
+    margin: 5px auto;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Botón de sorteo */
+.sortear {
+    background-color: #ff5722;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.sortear:hover {
+    background-color: #e64a19;
+}
